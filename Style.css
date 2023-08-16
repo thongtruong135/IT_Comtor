@@ -1,0 +1,54 @@
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#header {
+    text-align: center;
+    color: cadetblue;
+    background-color: bisque;
+    padding: 5px;
+}
+
+#main-content {
+    display: flex;
+    min-height: 650px;
+}
+
+#content {
+    flex-basis: 70%;
+    text-align: justify;
+    padding-right: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+
+}
+
+.paragragh {
+    text-align: justify;
+    padding: 20px;
+
+}
+
+#side-bar {
+    flex-basis: 30%;
+    background-color: gainsboro;
+    padding: 10px 15px;
+}
+
+.list-danh-muc {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#footer {
+    background-color: lightslategrey;
+    padding: 10px;
+    text-align: center
+}
